@@ -1,7 +1,13 @@
 import React from "react";
 
+import Form from "./Components/Form/Form";
+
 const App = () => {
-  return <div className="App">Notes Editor</div>;
+  return (
+    <div className="container App">
+      <Form />
+    </div>
+  );
 };
 
 export default App;
